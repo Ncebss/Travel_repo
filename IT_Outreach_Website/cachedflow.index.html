@@ -1,3 +1,4 @@
+
 <!DOCTYPE html> <!--This specifies that this is a an HTML5 document-->
 <html lang="en"> <!--The language used-->
 
@@ -8,23 +9,22 @@
 
     <!--This is the title of the website-->
     <title>Cachedflow Technology | B2B Lead Generation & Sales Outreach</title>
+    <link rel="stylesheet" href="css/Styles.css"> <!-- add stylesheet link if missing -->
 </head>
 <body>
-    <header>
-        <!--added the company logo-->
-        <img src="images/Cachedflow_logo.png" alt="Cachedflow Technology logo" width="450">
+  <header class="site-header">
+    <!-- preserve existing logo/image and nav content -->
+    <img src="images/Cachedflow_logo.png" alt="Cachedflow Technology logo" width="450">
+    <nav class="primary-nav">
+      <a href="cachedflow.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-        <!--Navigation bar for each of the webpages-->
-        <nav>
-            <a href="cachedflow.html">Home</a>
-            <a href="features.html">Features</a>
-            <a href="pricing.html">Pricing</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-<!--adding a -->
-    <main>
+    <main class="container">
         <section id="hero">
             <h1>Start your free trial</h1>
             <p>Generate more qualified customers through ethical, data-driven B2B outreach.</p>
@@ -67,7 +67,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <!--adding a navigation bar for about, pricing and contact section-->
         <nav>
             <a href="about.html">About</a>
